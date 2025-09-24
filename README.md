@@ -8,6 +8,30 @@ Use it to quickly set up new projects with a consistent structure, best practice
 
 # Table of Contents
 
+- [Python Project Template](#python-project-template)
+- [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Installation](#installation)
+    - [1. Clone the repository](#1-clone-the-repository)
+    - [2. Install Dependency](#2-install-dependency)
+    - [3. Create \& activate a virtual environment](#3-create--activate-a-virtual-environment)
+- [Quick Start](#quick-start)
+    - [Run the project](#run-the-project)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Results](#results)
+    - [Example of results:](#example-of-results)
+    - [Sample Run](#sample-run)
+- [Deployment](#deployment)
+    - [Option 1: Local Run](#option-1-local-run)
+    - [Option 2: Docker](#option-2-docker)
+    - [Option 3: Deploy as API (FastAPI example)](#option-3-deploy-as-api-fastapi-example)
+- [Acknowledgments](#acknowledgments)
+    - [Examples](#examples)
+- [License](#license)
+
+
 # Overview
 
 > [!Tip]
