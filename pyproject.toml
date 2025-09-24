@@ -1,0 +1,38 @@
+[project]
+name = "python-project-template"
+version = "0.1.0"
+description = "Reusable Python project template"
+requires-python = ">=3.10"
+dependencies = [
+    "python-dotenv",
+    "rich",
+    "typer",
+    "numpy",
+    "pandas",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+ml = [
+    "scikit-learn",
+    " torch",
+    "torchvision",
+]
+viz = [
+    "matplotlib",
+    "seaborn",
+    "plotly",
+]
+web = [
+    "fastapi",
+    "uvicorn",
+    "streamlit",
+]
+dev = [
+    "pytest",
+    "black",
+    "isort",
+    "mypy",
+    "pre-commit",
+]
+full = ["python-project-template[ml,viz,web,dev]"]
