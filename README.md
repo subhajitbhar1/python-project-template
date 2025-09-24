@@ -1,3 +1,7 @@
+
+<a id = "readme-top"></a>
+
+
 # Python Project Template
 
 > [!Tip] 
@@ -5,6 +9,7 @@
 
 This repository provides a **clean**, reusable template\*\* for Python projects.  
 Use it to quickly set up new projects with a consistent structure, best practices, and minimal boilerplate.
+
 
 # Table of Contents
 
@@ -41,6 +46,8 @@ Use it to quickly set up new projects with a consistent structure, best practice
 
 This template provides a **ready-to-use starting point** for Python projects. It standardizes project setup, reduces boilerplate, and ensures a consistent structure — making it faster and easier to launch new ideas or prototypes with best practices already in place.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Built With
 
 > [!Tip] 
@@ -59,6 +66,8 @@ Some common examples:
 -   [![Streamlit][Streamlit-icon]][streamlit-url]
 
 (Replace or extend with the technologies your project actually uses.)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Installation
 
@@ -103,6 +112,8 @@ uv sync --extra full
 source .venv/bin/activate   # On Windows: .venv\Scripts\activate
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Quick Start
 
 > [!Tip]  
@@ -118,12 +129,17 @@ uv run main.py
 That’s it. Your project should now be running locally. \
 (Replace main with the actual entry point of your application if different.)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Usage
 
 > [!Tip]  
 > _Provide detailed instructions on how to use the software after installation._  
 > _Include examples of basic usage, expected outputs, and (optionally) advanced scenarios._  
 > _It’s okay if this section overlaps with **Quick Start** — here you add more context and depth._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 # Project Structure
 
@@ -143,6 +159,8 @@ python-project-template/
 ├── README.md
 └── pyproject.toml
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Results
 
@@ -164,6 +182,8 @@ Hello from python-project-template!
 ```
 
 (Replace this with real results, such as model accuracy, plots, or screenshots, depending on the project.)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Deployment
 
@@ -196,6 +216,8 @@ uvicorn src.app:app --host 0.0.0.0 --port 8000
 
 (Adjust these instructions based on your project type — script, API, dashboard, etc.)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Acknowledgments
 
 > [!Tip]  
@@ -209,6 +231,8 @@ uvicorn src.app:app --host 0.0.0.0 --port 8000
 -   Tutorial followed: [Real Python Guide][real-python-guide]
 -   Special thanks to contributors and reviewers
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # License
 
 > [!Tip]  
@@ -217,6 +241,7 @@ uvicorn src.app:app --host 0.0.0.0 --port 8000
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE.txt) file for full details.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <div align="center">
   <h3>Connect with me</h3>
