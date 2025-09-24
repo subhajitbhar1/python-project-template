@@ -4,35 +4,37 @@ version = "0.1.0"
 description = "Reusable Python project template"
 requires-python = ">=3.10"
 dependencies = [
-    "python-dotenv",
-    "rich",
-    "typer",
-    "numpy",
-    "pandas",
-    "matplotlib",
+    "python-dotenv>=1.1.1",
+    "rich>=14.1.0",
+    "typer>=0.19.2",
+    "numpy>=2.2.6",
+    "pandas>=2.3.2",
+    "matplotlib>=3.10.6",
+    "ruff>=0.13.1",
 ]
 
 [project.optional-dependencies]
 ml = [
-    "scikit-learn",
-    " torch",
-    "torchvision",
+    "scikit-learn>=1.7.2",
+    "torch>=2.8.0",
+    "torchvision>=0.23.0",
 ]
 viz = [
-    "matplotlib",
-    "seaborn",
-    "plotly",
+    "seaborn>=0.13.2",
+    "plotly>=6.3.0",
 ]
 web = [
-    "fastapi",
-    "uvicorn",
-    "streamlit",
+    "fastapi>=0.117.1",
+    "uvicorn>=0.37.0",
+    "streamlit>=1.50.0",
+    "pydantic>=2.11.9",
+
 ]
 dev = [
-    "pytest",
-    "black",
-    "isort",
-    "mypy",
-    "pre-commit",
+    "pytest>=8.4.2",
+    "black>=25.9.0",
+    "isort>=6.0.1",
+    "mypy>=1.18.2",
+    "pre-commit>=4.3.0",
 ]
 full = ["python-project-template[ml,viz,web,dev]"]
