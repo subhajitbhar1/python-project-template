@@ -239,7 +239,7 @@ uvicorn src.app:app --host 0.0.0.0 --port 8000
 > _State the license type clearly so users know how they can use or share this project._  
 > _Keep it short — detailed terms should stay in the LICENSE file._
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE.txt) file for full details.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for full details.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
