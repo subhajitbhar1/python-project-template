@@ -7,7 +7,7 @@
 > [!Tip] 
 > _Write a one-liner description of what the project does and what it's for_
 
-This repository provides a **clean**, reusable template\*\* for Python projects.  
+This repository provides a **clean**, **reusable template** for Python projects.  
 Use it to quickly set up new projects with a consistent structure, best practices, and minimal boilerplate.
 
 
@@ -40,8 +40,9 @@ Use it to quickly set up new projects with a consistent structure, best practice
 # Overview
 
 > [!Tip]
-> _Explain the **problems** this project solves in 2-3 sentences._ \
-> _Why it matters (business case / technical gap)._ \
+> _Explain the **problems** this project solves in 2-3 sentences._ 
+> - _Why it matters (business case / technical gap)._ 
+> - _How this repository helps solve the problem._
 > _How this repository helps solve the problem._
 
 This template provides a **ready-to-use starting point** for Python projects. It standardizes project setup, reduces boilerplate, and ensures a consistent structure — making it faster and easier to launch new ideas or prototypes with best practices already in place.
@@ -52,7 +53,7 @@ This template provides a **ready-to-use starting point** for Python projects. It
 
 > [!Tip] 
 > _List the main frameworks, libraries, or tools that power this project._  
-> _Keep it focused on the essentials — add-ons and minor plugins can go under **Acknowledgments**._
+> _Keep it focused on the essentials. Add-ons and minor plugins can go under **Acknowledgments**._
 
 Some common examples:
 
@@ -73,7 +74,7 @@ Some common examples:
 
 > [!Tip]  
 > _Provide clear, step-by-step setup instructions with copy-paste examples._  
-> _If your project supports package managers (e.g., `pip`, `npm`, `brew`, `apt`), show the recommended way to install dependencies._
+> _If your project supports package managers (e.g., `uv`,`pip`, `npm`, `brew`, `apt`), show the recommended way to install dependencies._
 
 ### 1. Clone the repository
 
@@ -136,7 +137,7 @@ That’s it. Your project should now be running locally. \
 > [!Tip]  
 > _Provide detailed instructions on how to use the software after installation._  
 > _Include examples of basic usage, expected outputs, and (optionally) advanced scenarios._  
-> _It’s okay if this section overlaps with **Quick Start** — here you add more context and depth._
+> _It’s okay if this section overlaps with **Quick Start**. Here you add more context and depth._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,7 +222,7 @@ uvicorn src.app:app --host 0.0.0.0 --port 8000
 # Acknowledgments
 
 > [!Tip]  
-> _Give credit where it’s due — mention datasets, libraries, tutorials, or people that inspired or supported this project._  
+> _Give credit where it’s due. Mention datasets, libraries, tutorials, or people that inspired or supported this project._  
 > _Keep it professional and relevant. Minor dependencies can stay in `requirements.txt` instead._
 
 ### Examples
@@ -237,7 +238,7 @@ uvicorn src.app:app --host 0.0.0.0 --port 8000
 
 > [!Tip]  
 > _State the license type clearly so users know how they can use or share this project._  
-> _Keep it short — detailed terms should stay in the LICENSE file._
+> _Keep it short. Detailed terms should stay in the LICENSE file._
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for full details.
 
